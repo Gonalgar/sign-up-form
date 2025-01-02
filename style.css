@@ -83,5 +83,46 @@ body {
     padding: 20px;
     border-radius: 10px;
     background-color: white;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.049);
+    padding: 40px;
+}
+
+.form-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 10px;
+}
+
+.field {
+    display: flex;
+    width: 33%;
+    margin: auto 0;
+    flex-direction: column;
+}
+
+label {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #3b7085;
+}
+
+.form-section input {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #b8b8b8;
+    border-radius: 10px;
+}
+
+input:active {
+    border: 1px solid #3b7085;
+}
+
+input:valid {
+    border: 1px solid #b2faa5;
+}
+
+input:user-invalid {
+    border: 1px solid #faa5a5;
 }
