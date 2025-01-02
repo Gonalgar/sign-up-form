@@ -126,3 +126,30 @@ input:valid {
 input:user-invalid {
     border: 1px solid #faa5a5;
 }
+
+.submit-section {
+    margin: 20px;
+}
+
+.submit-section a {
+    color: #3b7085;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    margin: 10px;
+}
+
+button {
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #3b7085;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #2b5065;
+}
